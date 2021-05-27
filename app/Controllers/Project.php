@@ -9,6 +9,8 @@ class Project extends BaseController
 		$data = [
 			'title' => 'Daftar Project'
 		];
+
+
 		return view('project/index', $data);
 	}
 }
